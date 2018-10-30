@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<parameter name="endpoint"
+		value="https://istheapplestoredown.com/api/v1/status/worldwide"></parameter>
+	<test thread-count="5" name="Test">
+		<packages>
+			<package name="com.apple.asd.tests"></package>
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
